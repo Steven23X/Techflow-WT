@@ -509,7 +509,7 @@
     border-radius: 4px;
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    /*justify-content: flex-end;*/
     color: #fff;
     background-color: #480303;
     transition: 0.3s ease-in;
@@ -531,7 +531,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    animation: anim1 15s
+    animation: anim1 7s
     ease 0s infinite
     alternate-reverse both;
 }
@@ -541,7 +541,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    animation: anim1 20s
+    animation: anim1 7s
     ease 0s infinite
     alternate-reverse both;
 }
@@ -551,7 +551,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    animation: anim1 20s
+    animation: anim1 7s
     ease 0s infinite
     alternate-reverse both;
 }
@@ -561,7 +561,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    animation: anim1 20s
+    animation: anim1 7s
     ease 0s infinite
     alternate-reverse both;
 }
@@ -589,6 +589,7 @@
     border-radius: 4px;
     background: #111111;
     font-size: 1rem;
+    margin-top: 16rem;
 }
 
 .featured_card button:hover{
