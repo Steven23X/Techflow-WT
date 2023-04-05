@@ -467,3 +467,148 @@
         margin: 2.5rem 0;
     }
 }
+
+/* Featured Products Section */
+.featured {
+    background: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.featured h1 {
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: white;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+}
+
+.featured_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.featured_card {
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    color: #fff;
+    background-color: #480303;
+    transition: 0.3s ease-in;
+}
+
+.featured_card h2 {
+    text-align: center;
+}
+
+.featured_card p {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+#card1 {
+    display: flex;
+    background-image: url('../resources/fp_card1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation: anim1 15s
+    ease 0s infinite
+    alternate-reverse both;
+}
+
+#card2 {
+    background-image: url('../resources/fp_card2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation: anim1 20s
+    ease 0s infinite
+    alternate-reverse both;
+}
+
+#card3 {
+    background-image: url('../resources/fp_card3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation: anim1 20s
+    ease 0s infinite
+    alternate-reverse both;
+}
+
+#card4 {
+    background-image: url('../resources/fp_card4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation: anim1 20s
+    ease 0s infinite
+    alternate-reverse both;
+}
+
+@keyframes anim1 {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.featured_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.featured_card button {
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #111111;
+    font-size: 1rem;
+}
+
+.featured_card button:hover{
+    cursor:pointer;
+}
+
+.featured_card:hover{
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor:pointer;
+}
+
+@media screen and (max-width:1300px) {
+    .featured_wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:768px){
+    .featured_wrapper{
+        grid-template-columns: 1fr;
+    }
+}
