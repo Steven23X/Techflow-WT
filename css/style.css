@@ -572,6 +572,16 @@
     display: flex;
     justify-content: center;
     margin-top: 16px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.featured_btn a {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
 }
 
 .featured_card button {
@@ -592,7 +602,6 @@
 .featured_card:hover {
     transform: scale(1.075);
     transition: 0.3s ease-in;
-    cursor: pointer;
 }
 
 @media screen and (max-width:1300px) {
