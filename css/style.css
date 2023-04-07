@@ -204,6 +204,7 @@
 .hero {
     height: 90vh;
     background-image: url('../resources/hero_image.jpg');
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -864,5 +865,122 @@
 @media screen and (max-width:768px) {
     .shop_wrapper {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Product Section */
+
+.product {
+    background: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1rem 0;
+}
+
+.product_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    margin-right: 150px;
+}
+
+.product_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in;
+}
+
+.product_img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product_img:hover {
+    transform: scale(1.075);
+    transition: 0.6s ease-in;
+}
+
+.product_description {
+    text-align: justify;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.product_description h1 {
+    text-align: center;
+    font-size: 2rem;
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.product_price {
+    text-align: center;
+    font-size: 2rem;
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.product_description p {
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.product_description_full {
+    color: #fff;
+    text-align: justify;
+    padding: 20px;
+    margin: 0 150px 0 150px;
+}
+
+.product_description_full p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.product_description_full h2 {
+    text-align: center;
+    font-size: 2rem;
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width:1300px) {
+    .product_container {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .product_description_full {
+        margin: 0;
     }
 }
