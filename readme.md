@@ -28,3 +28,21 @@ TechFlow's website is built using a combination of HTML, CSS, and JavaScript tec
 - [X] Generated content (using :after, :before)
 - [X] Transitions
 - [X] Animations
+  
+## **Part 2 : Javascript + misc**
+
+### **JAVASCRIPT:**
+- [X] Separate file for JavaScript code
+- [ ] Modify the style of an element or a group of elements
+- [ ] Manipulate the DOM
+- [ ] Create and delete HTML elements
+- [ ] Use and modify mouse and keyboard generated events
+- [ ] Modify properties
+- [ ] Functional inputs
+- [ ] Use setTimeout or setInterval
+- [ ] Use localStorage 
+- [ ] Use at least one method from the Math, Array, String, Date classes
+- [ ] Randomly change the values of properties
+- [X] Use classList, target or currentTarget properties
+- [ ] Use getComputedStyle and stopPropagation methods
+- [ ] Validate data in a form using regular expressions.
