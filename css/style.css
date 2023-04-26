@@ -86,7 +86,6 @@
     outline: none;
     border-radius: 4px;
     background: #ED213A;
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
     background: linear-gradient(to right, #93291E, #ED213A);
     color: white;
     transition: all 0.3s ease;
@@ -230,7 +229,6 @@
 
 .hero_heading span {
     background: #ED213A;
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
     background: linear-gradient(to right, #93291E, #ED213A);
     background-size: 100%;
     background-clip: text;
@@ -245,7 +243,6 @@
 .hero_desc {
     font-size: 60px;
     background: #ED213A;
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
     background: linear-gradient(to right, #93291E, #ED213A);
     background-size: 100%;
     background-clip: text;
@@ -664,12 +661,12 @@
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
-    transition: 0.3 ease-out;
+    transition: 0.3s ease-out;
 }
 
 .footer_link_items a:hover {
     color: #ED213A;
-    transition: 0.3 ease-out;
+    transition: 0.3s ease-out;
 }
 
 .social_icon_link {
