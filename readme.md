@@ -36,9 +36,9 @@ TechFlow's website is built using a combination of HTML, CSS, and JavaScript tec
 - [X] Modify the style of an element or a group of elements
 - [X] Manipulate the DOM
 - [X] Create and delete HTML elements
-- [ ] Use and modify mouse and keyboard generated events
+- [X] Use and modify mouse and keyboard generated events
 - [ ] Modify properties
-- [ ] Functional inputs
+- [X] Functional inputs
 - [ ] Use setTimeout or setInterval
 - [ ] Use localStorage 
 - [X] Use at least one method from the Math, Array, String, Date classes

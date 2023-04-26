@@ -1031,3 +1031,23 @@ input {
 h2.card_price ::after {
     content: "$";
 }
+
+/* Scroll to Top */
+
+.scroll_top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #480303;
+    color:#fff;
+    border-radius: 5px;
+    border-radius: 1px solid #fff;
+    cursor:pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.scroll_top:hover{
+    background-color: #191919;
+    color:white;
+}
