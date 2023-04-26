@@ -739,7 +739,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 10rem 0;
+    padding: 4rem 0;
 }
 
 .shop h1 {
@@ -837,7 +837,7 @@
     top: 100px;
     opacity: 0;
     padding: 10px 30px;
-    margin-top: 15px;
+    margin-top: 10px;
     color: white;
     text-decoration: none;
     background: #480303;
@@ -980,4 +980,54 @@
     .product_description_full {
         margin: 0;
     }
+}
+
+/* Product Filter */
+
+.filter {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #191919;
+    padding: 1rem;
+}
+
+::placeholder {
+    color: white;
+}
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    background-color: #93291E;
+    width: 20rem;
+    height: 4rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin: 0.5rem 1rem 2rem 7rem;
+}
+
+.range_price {
+
+    width: 15rem;
+    height: 4rem;
+}
+
+.range_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #93291E;
+    width: 20rem;
+    border-radius: 2rem;
+    margin: 0rem 1rem 0rem 7rem;
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+h2.card_price ::after {
+    content: "$";
 }
