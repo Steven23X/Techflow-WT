@@ -143,7 +143,7 @@ function displayCart() {
         });
 
         productContainer.innerHTML += ` 
-         <div class="basketTotalContainer_cart">
+        <div class="basketTotalContainer_cart">
          <h4 class = "basketTotalTitle_cart">
             Cart Total
         </h4>

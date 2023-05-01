@@ -39,10 +39,10 @@ TechFlow's website is built using a combination of HTML, CSS, and JavaScript tec
 - [X] Use and modify mouse and keyboard generated events
 - [X] Modify properties
 - [X] Functional inputs
-- [ ] Use setTimeout or setInterval
+- [X] Use setTimeout or setInterval
 - [X] Use localStorage 
 - [X] Use at least one method from the Math, Array, String, Date classes
-- [ ] Randomly change the values of properties
+- [X] Randomly change the values of properties
 - [X] Use classList, target or currentTarget properties
-- [ ] Use getComputedStyle and stopPropagation methods
+- [X] Use getComputedStyle and stopPropagation methods
 - [ ] Validate data in a form using regular expressions.

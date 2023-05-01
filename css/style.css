@@ -1073,7 +1073,7 @@ h2.card_price ::after {
     padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-bottom: 100px;
+    padding-bottom: 8rem;
 }
 
 .products_container_cart ion-icon {
@@ -1099,7 +1099,6 @@ h2.card_price ::after {
 
 .products_cart img {
     width: 100px;
-
 }
 
 .product_title_cart {
@@ -1109,7 +1108,7 @@ h2.card_price ::after {
 .price_cart {
     width: 30%;
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
 }
 
 .quantity_cart {
@@ -1132,21 +1131,29 @@ h2.card_price ::after {
     align-items: center;
 }
 
-.product_cart span{
+.product_cart span {
     width: 20%;
 }
 
-.basketTotalContainer_cart{
+.basketTotalContainer_cart {
     display: flex;
     justify-content: flex-start;
-    width:100%;
+    width: 100%;
     padding: 10px;
 }
 
-.basketTotalTitle_cart{
+.basketTotalTitle_cart {
     width: 30%;
 }
 
-.basketTotal_cart{
+.basketTotal_cart {
     width: 20%;
+}
+
+#line {
+    left: 0;
+    top: 50%;
+    width: 10px;
+    height: 5px;
+    background-color: rgb(255, 2, 2);
 }
