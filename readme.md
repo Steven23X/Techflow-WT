@@ -45,4 +45,4 @@ TechFlow's website is built using a combination of HTML, CSS, and JavaScript tec
 - [X] Randomly change the values of properties
 - [X] Use classList, target or currentTarget properties
 - [X] Use getComputedStyle and stopPropagation methods
-- [ ] Validate data in a form using regular expressions.
+- [X] Validate data in a form using regular expressions.

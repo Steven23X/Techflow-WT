@@ -41,20 +41,31 @@
                 </ul>
             </div>
         </nav>
-        <!--Cart Section-->
-
-        <div class="products_container_cart">
-            <div class="product_header_cart">
-                <h5 class="product_title_cart">PRODUCT</h5>
-                <h5 class="price_cart">PRICE</h5>
-                <h5 class="quantity_cart">QUANTITY</h5>
-                <h5 class="total_cart">TOTAL</h5>
+        <!-- Checkout Form -->
+        <form id="checkout-form">
+            <h2>Checkout</h2>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error-message" id="name-error"></div>
             </div>
-            <div class="products_cart">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <div class="error-message" id="email-error"></div>
             </div>
-            <button class="main_btn"><a href="checkout.html">Checkout</a></button>
-        </div>
-        <div id="line"></div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+                <div class="error-message" id="phone-error"></div>
+            </div>
+            <div class="form-group">
+                <label for="card">Card Number</label>
+                <input type="text" id="card" name="card" required>
+                <div class="error-message" id="card-error"></div>
+            </div>
+            <button type="submit" class="main_btn">Place Order</button>
+        </form>
         <!--Footer-->
         <div class="footer_container">
             <div class="footer_links">
@@ -104,7 +115,7 @@
         </div>
         <script src="js/addcart.js"></script>
         <script src="js/dropdown.js"></script>
-        <script src="js/line.js"></script>
+        <script src="js/checkout.js"></script>
         <script type="module"
             src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule

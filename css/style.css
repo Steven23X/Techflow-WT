@@ -1157,3 +1157,40 @@ h2.card_price ::after {
     height: 5px;
     background-color: rgb(255, 2, 2);
 }
+
+/* Checkout Section */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+#checkout-form {
+    padding: 4rem;
+    color: #fff;
+    background-color: #111111;
+}
+
+#checkout-form h2 {
+    padding-bottom: 3rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#checkout-form
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    background-color: #191919;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
