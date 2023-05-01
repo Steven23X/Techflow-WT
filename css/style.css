@@ -96,13 +96,14 @@
     transition: all 0.3s ease;
 }
 
-.fa-cart-shopping{
-    margin:1rem;
+.fa-cart-shopping {
+    margin: 1rem;
 }
 
-.navbar_item span{
-    margin:0.5rem;
+.navbar_item span {
+    margin: 0.5rem;
 }
+
 @media screen and (max-width: 960px) {
     .navbar_container {
         display: flex;
@@ -1041,20 +1042,111 @@ h2.card_price ::after {
 
 /* Scroll to Top */
 
-.scroll_top{
+.scroll_top {
     position: fixed;
     bottom: 30px;
     right: 30px;
     padding: 10px 15px;
     background-color: #480303;
-    color:#fff;
+    color: #fff;
     border-radius: 5px;
     border-radius: 1px solid #fff;
-    cursor:pointer;
+    cursor: pointer;
     transition: all 0.5s ease 0s;
 }
 
-.scroll_top:hover{
+.scroll_top:hover {
     background-color: #191919;
-    color:white;
+    color: white;
+}
+
+/* Cart Section */
+
+.products_container_cart {
+    background-color: #191919;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 100px;
+}
+
+.products_container_cart ion-icon {
+    font-size: 25px;
+    color: #ED213A;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product_header_cart {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid white;
+}
+
+.products_cart {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products_cart img {
+    width: 100px;
+
+}
+
+.product_title_cart {
+    width: 30%;
+}
+
+.price_cart {
+    width: 30%;
+    display: flex;
+    align-items:flex-start;
+}
+
+.quantity_cart {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.total_cart {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.product_cart {
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product_cart span{
+    width: 20%;
+}
+
+.basketTotalContainer_cart{
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+    padding: 10px;
+}
+
+.basketTotalTitle_cart{
+    width: 30%;
+}
+
+.basketTotal_cart{
+    width: 20%;
 }

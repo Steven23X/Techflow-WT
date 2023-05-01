@@ -34,14 +34,25 @@
                     <li class="navbar_item">
                         <a href="shop.html" class="navbar_links" id="shop-page">Shop</a>
                     </li>
-                    <li class="navbar_item">
-                        <a href="cart.html" class="navbar_links" id="cart"><i class="fa-solid fa-cart-shopping"></i>Cart<span>0</span></a>
+                    <li class="navbar_item cart_inc">
+                        <a href="cart.html" class="navbar_links" id="cart"><i
+                                class="fa-solid fa-cart-shopping"></i>Cart<span>0</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <!--Checkout Section-->
-
+        <!--Cart Section-->
+        
+        <div class="products_container_cart">
+            <div class="product_header_cart">
+                <h5 class="product_title_cart">PRODUCT</h5>
+                <h5 class="price_cart">PRICE</h5>
+                <h5 class="quantity_cart">QUANTITY</h5>
+                <h5 class="total_cart">TOTAL</h5>
+            </div>
+            <div class="products_cart">
+            </div>
+        </div>
 
         <!--Footer-->
         <div class="footer_container">
@@ -90,6 +101,11 @@
                 </div>
             </section>
         </div>
+        <script src="js/addcart.js"></script>
         <script src="js/dropdown.js"></script>
+        <script type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
