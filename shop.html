@@ -34,8 +34,9 @@
                     <li class="navbar_item">
                         <a href="shop.html" class="navbar_links" id="shop-page">Shop</a>
                     </li>
-                    <li class="navbar_btn">
-                        <a href="checkout.html" class="button" id="checkout">CheckOut</a>
+                    <li class="navbar_item">
+                        <a href="cart.html" class="navbar_links" id="cart"><i
+                                class="fa-solid fa-cart-shopping"></i>Cart<span>0</span></a>
                     </li>
                 </ul>
             </div>
@@ -46,9 +47,9 @@
             <input type="text" id="search_bar" class="search_bar"
                 placeholder="Search for a product.." onkeyup="searchBar()">
             <div class="range_wrapper">
-            <input type="range" id="range_price" class="range_price" min="0"
-                max="1500" step="100" value="1500" oninput="priceFilter()">
-            <span id="real_price">1500$</span>
+                <input type="range" id="range_price" class="range_price" min="0"
+                    max="1500" step="100" value="1500" oninput="priceFilter()">
+                <span id="real_price">1500$</span>
             </div>
         </div>
 
@@ -62,7 +63,8 @@
                         <h3 class="card_name">PowerColor Red Devil AMD Radeon RX
                             7900 XT</h3>
                         <h2 class="card_price">969.99<small></small></h2>
-                        <a href="prod1.html" class="card_buy">Buy Now</a>
+                        <a href="prod1.html" class="card_buy">See product</a>
+                        <a href="" class="card_buy cart1">Add to Cart</a>
                     </div>
                 </div>
                 <div class="shop_card" id="shop_card2">
@@ -71,6 +73,7 @@
                         <h3 class="card_name">Intel Core i7-8700</h3>
                         <h2 class="card_price">269.99<small></small></h2>
                         <a href="prod2.html" class="card_buy">Buy Now</a>
+                        <a href="" class="card_buy cart2">Add to Cart</a>
                     </div>
                 </div>
                 <div class="shop_card" id="shop_card3">
@@ -79,6 +82,7 @@
                         <h3 class="card_name">Corsair iCUE H150i ELITE CAPELLIX</h3>
                         <h2 class="card_price">166.99<small></small></h2>
                         <a href="prod3.html" class="card_buy">Buy Now</a>
+                        <a href="" class="card_buy cart3">Add to Cart</a>
                     </div>
                 </div>
             </div>
@@ -89,6 +93,7 @@
                         <h3 class="card_name">Asus ROG STRIX Z690-E</h3>
                         <h2 class="card_price">349.99<small></small></h2>
                         <a href="prod4.html" class="card_buy">Buy Now</a>
+                        <a href="" class="card_buy cart4">Add to Cart</a>
                     </div>
                 </div>
                 <div class="shop_card" id="shop_card5">
@@ -97,6 +102,7 @@
                         <h3 class="card_name">MSI MAG VAMPIRIC 100R</h3>
                         <h2 class="card_price">62.99 <small></small></h2>
                         <a href="prod5.html" class="card_buy">Buy Now</a>
+                        <a href="" class="card_buy cart5">Add to Cart</a>
                     </div>
                 </div>
                 <div class="shop_card" id="shop_card6">
@@ -105,6 +111,7 @@
                         <h3 class="card_name">AMD Ryzen 7 5700X</h3>
                         <h2 class="card_price">185.99<small></small></h2>
                         <a href="prod6.html" class="card_buy">Buy Now</a>
+                        <a href="" class="card_buy cart6">Add to Cart</a>
                     </div>
                 </div>
             </div>
@@ -115,6 +122,7 @@
                         <h3 class="card_name">Corsair TX550M</h3>
                         <h2 class="card_price">65.99<small></small></h2>
                         <a href="prod7.html" class="card_buy">Buy Now</a>
+                        <a href="" class="card_buy cart7">Add to Cart</a>
                     </div>
                 </div>
                 <div class="shop_card" id="shop_card8">
@@ -123,6 +131,7 @@
                         <h3 class="card_name">MSI Radeon RX 6650 XT</h3>
                         <h2 class="card_price">329.99<small></small></h2>
                         <a href="prod8.html" class="card_buy">Buy Now</a>
+                        <a href="" class="card_buy cart8">Add to Cart</a>
                     </div>
                 </div>
                 <div class="shop_card" id="shop_card9">
@@ -131,11 +140,13 @@
                         <h3 class="card_name">MSI MPG B550</h3>
                         <h2 class="card_price">139.99<small></small></h2>
                         <a href="prod9.html" class="card_buy">Buy Now</a>
+                        <a href="" class="card_buy cart9">Add to Cart</a>
                     </div>
                 </div>
             </div>
         </div>
-
+        <!-- Scroll-->
+        <div class="scroll_top" onclick="scrollToTop()">Top</div>
         <!--Footer-->
         <div class="footer_container">
             <div class="footer_links">
@@ -184,6 +195,7 @@
             </section>
         </div>
         <script src="js/dropdown.js"></script>
+        <script src="js/totop.js"></script>
         <script src="js/filter.js"></script>
     </body>
 </html>
