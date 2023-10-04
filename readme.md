@@ -1,7 +1,7 @@
 ![](resources/logo_text.png)
 
 ## **Link**
-https://steven23x.github.io/WT_Project/
+https://steven23x.github.io/WT-Project/
 ## **Description**
 
 TechFlow is an online retailer that specializes in selling a wide range of PC hardware products, including processors, graphics cards, motherboards, memory, storage, and cooling solutions. They offer competitive pricing, fast and reliable shipping, and excellent customer service, making it an ideal choice for users looking to upgrade or build their own PC. With a user-friendly website and a large inventory of products from top brands, TechFlow is a one-stop-shop for all your PC hardware needs.
